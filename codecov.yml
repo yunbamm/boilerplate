@@ -5,7 +5,7 @@ codecov:
 comment:
   layout: "reach, diff, flags, files"
   behavior: default
-  require_changes: true  # 커버리지 감소 시에만 코멘트 달기 (선택)
+  require_changes: false
   branches:
     - main
 
