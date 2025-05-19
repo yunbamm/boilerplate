@@ -10,6 +10,48 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
+        System.out.println("Testing");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
+        System.out.println("Testing2");
         return "Hello";
     }
 
