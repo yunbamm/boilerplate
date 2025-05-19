@@ -1,0 +1,25 @@
+codecov:
+  notify:
+    after_n_builds: 1
+
+comment:
+  layout: "reach, diff, flags, files"
+  behavior: default
+  require_changes: true  # 커버리지 감소 시에만 코멘트 달기 (선택)
+  branches:
+    - main
+
+coverage:
+  status:
+    project:
+      default:
+        target: auto
+        threshold: 1%  # 허용 오차
+
+parsers:
+  gcov:
+    branch_detection:
+      conditional: true
+      loop: true
+      method: true
+      macro: true
